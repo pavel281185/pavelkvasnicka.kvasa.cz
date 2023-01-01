@@ -3,12 +3,6 @@ Font sizes - 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86
 Gap sizes - 2 / 4/ 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 Border sizes - 2 / 4/ 6 / 10 / 16 / 26 / 42 / 68
 
-
-
-
-
-
-
 */
 /* General setting */
 * {
@@ -21,7 +15,7 @@ html {
   font-size: 62.5%;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Rubik:wght@400;500;700&display=swap");
+@import url("https://font-s.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Rubik:wght@400;500;700&display=swap");
 
 body {
   font-family: "Roboto", sans-serif;
@@ -30,7 +24,12 @@ body {
 }
 
 p {
-  text-indent: 15px;
+  text-indent: 2.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
 }
 
 .main-container {
@@ -49,19 +48,21 @@ p {
   color: #000;
 }
 
-.header-text:hover {
-  text-shadow: 0px 0px 10px #555;
-}
-
 .header {
-  background-color: #ffcc00;
+  background-color: #ffe066;
   height: 15rem;
   border-radius: inherit;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 0px 15px 5px #dcdcdc;
   cursor: pointer;
+}
+
+.header:hover {
+  text-shadow: 0px 0px 10px #555;
+  box-shadow: 0px 0px 15px 5px #ffe066;
+  background-color: #ffe066;
+  transition: all 0.25s;
 }
 
 /* Navigation */
@@ -73,7 +74,7 @@ p {
 
 .nav-item {
   list-style: none;
-  background-color: #ffcc00;
+  background-color: #ffe066;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,31 +82,42 @@ p {
   font-size: 3rem;
   font-weight: 700;
   padding: 15px;
-  box-shadow: 0px 0px 15px 5px #dcdcdc;
   cursor: pointer;
 }
 .nav-item:hover {
   text-shadow: 0px 0px 5px #555;
+  box-shadow: 0px 0px 15px 5px #ffe066;
+  background-color: #ffe066;
+  transition: all 0.25s;
 }
 
 /* Main content */
 .main-article {
-  background-color: #dcdcdc;
   border-radius: inherit;
   padding: 25px;
-  box-shadow: 0px 0px 15px 5px #dcdcdc;
+  box-shadow: 0px 0px 15px 5px #fff9db;
   font-size: 2rem;
   background-image: linear-gradient(
     to bottom,
-    #ffcc00 0px,
-    #dcdcdc 10%,
-    #dcdcdc 90%,
-    #ffcc00 100%
+    #ffe066 0px,
+    #fff9db 10%,
+    #fff9db 90%,
+    #ffe066 100%
   );
 }
 
 .main-article ul li {
   list-style: none;
+  margin: 0.8rem;
+}
+
+.main-article h2 {
+  margin: 1.5rem;
+  text-decoration: underline;
+}
+
+.main-article p {
+  margin: 1.5rem;
 }
 
 /* Footer */
@@ -114,9 +126,9 @@ p {
   justify-content: center;
   align-items: center;
   font-style: italic;
-  background-color: #ffcc00;
+  background-color: #ffe066;
   border-radius: inherit;
   padding: 10px;
-  box-shadow: 0px 0px 15px 5px #dcdcdc;
   font-size: 1.6rem;
+  font-weight: 500;
 }
