@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="cz">
+  <!-- Head -->
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -21,18 +22,24 @@
     />
     <title>Pavel Kvasnička</title>
   </head>
+  <!-- Body -->
   <body>
     <div class="main-container">
-      <header><span class="header-text">Pavel Kvasnička</span></header>
+      <!-- Header -->
+      <header class="header">
+        <h1 class="header-text">Pavel Kvasnička</h1>
+      </header>
+      <!-- Navigation -->
       <nav>
-        <ul>
-          <li>O mně</li>
-          <li>Portfolio</li>
-          <li>Fotogalerie</li>
-          <li>Kontakty</li>
+        <ul class="nav">
+          <li class="nav-item">O mně</li>
+          <li class="nav-item">Portfolio</li>
+          <li class="nav-item">Fotogalerie</li>
+          <li class="nav-item">Kontakty</li>
         </ul>
       </nav>
-      <article>
+      <!-- Main content -->
+      <article class="main">
         <h2>Vítejte na mých osobních stránkách</h2>
         <p>
           Vážení návštěvníci, vítejte na mých osobních webových stránkách.
@@ -52,37 +59,41 @@
         </p>
 
         <p>V jednotlivých sekcích naleznete:<br /></p>
-        <p>
-          <a class="link-to-another-site-page" href="./omne.php#omne"
-            ><strong>O mně</strong></a
-          >
-          - kdo jsem, odkud jsem atd.
-        </p>
-        <p>
-          <a class="link-to-another-site-page" href="./portfolio.php#portfolio"
-            ><strong>Portfolio</strong></a
-          >
-          - pracovní zkušenosti, co umím, CV atd.
-        </p>
-        <p>
-          <a
-            class="link-to-another-site-page"
-            href="./fotogalerie.php#fotogalerie"
-            ><strong>Fotogalerie</strong></a
-          >
-          - malá fotogalerie.
-        </p>
-        <p>
-          <a class="link-to-another-site-page" href="./kontakty.php#kontakty"
-            ><strong>Kontakty</strong></a
-          >
-          - Mobil, E-mail, ICQ, Skype, Jabber, Facebook, Youtube, Twitter,
-          LinkedIn
-        </p>
+        <ul>
+          <li>
+            <a class="link-to-another-site-page" href="./omne.php#omne"
+              ><strong>O mně</strong></a
+            >
+            - kdo jsem, odkud jsem atd.
+          </li>
+          <li>
+            <a
+              class="link-to-another-site-page"
+              href="./portfolio.php#portfolio"
+              ><strong>Portfolio</strong></a
+            >
+            - pracovní zkušenosti, co umím, CV atd.
+          </li>
+          <li>
+            <a
+              class="link-to-another-site-page"
+              href="./fotogalerie.php#fotogalerie"
+              ><strong>Fotogalerie</strong></a
+            >
+            - malá fotogalerie.
+          </li>
+          <li>
+            <a class="link-to-another-site-page" href="./kontakty.php#kontakty"
+              ><strong>Kontakty</strong></a
+            >
+            - Mobil, E-mail, ICQ, Skype, Jabber, Facebook, Youtube, Twitter,
+            LinkedIn
+          </li>
+        </ul>
         <br />
       </article>
-
-      <footer>&copy; Vytvořeno: Pavel Kvasnička 2022</footer>
+      <!-- Footer -->
+      <footer class="footer">&copy; Vytvořeno: Pavel Kvasnička 2022</footer>
     </div>
   </body>
 </html>
