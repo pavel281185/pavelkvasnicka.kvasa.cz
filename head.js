@@ -24,4 +24,3 @@ document.write(`
     <title>Pavel Kvasnička</title>
   </head>
   `);
-</html>

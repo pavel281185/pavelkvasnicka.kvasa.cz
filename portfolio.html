@@ -1,0 +1,141 @@
+<!-- <script src="head.js"></script> -->
+<!-- <script src="header-navigation.js"></script> -->
+<!DOCTYPE html>
+<html lang="cs">
+  <!-- Head -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Pavel Kvasnička" />
+    <meta name="keywords" content="Pavel, Kvasnička, prezentace, osobní" />
+    <meta name="robots" content="index,follow" />
+    <link rel="shortcut icon" href="./ico/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <meta
+      name="description"
+      content="Pavel Kvasnička - osobní webové stránky."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Pavel Kvasnička</title>
+  </head>
+  <!-- Body -->
+  <body>
+    <div class="main-container">
+      <!-- Header -->
+      <header class="header" onclick="location.href='./index.html';">
+        <h1 class="header-text">Pavel Kvasnička</h1>
+      </header>
+      <!-- Navigation -->
+      <nav>
+        <ul class="nav">
+          <li class="nav-item" onclick="location.href='./omne.html';">O mně</li>
+          <li class="nav-item" onclick="location.href='./portfolio.html';">
+            Portfolio
+          </li>
+          <li class="nav-item" onclick="location.href='./fotogalerie.html';">
+            Fotogalerie
+          </li>
+          <li class="nav-item" onclick="location.href='./kontakty.html';">
+            Kontakty
+          </li>
+        </ul>
+      </nav>
+      <!-- Main content -->
+      <article class="main-article">
+        <h2>Portfolio</h2>
+
+        <ul>
+          <li>
+            2010 - 2011: <strong>Projektant elektrických zařízení / </strong
+            ><a href="http://www.p-en.cz/" target="_blank"
+              ><strong>PEN - projekty energetiky s.r.o.</strong></a
+            >
+          </li>
+          <li>
+            2011 - 2013: <strong>Vedoucí projektů / </strong
+            ><a href="http://www.beck-pollitzer.cz/" target="_blank"
+              ><strong>Beck & Pollitzer Czech spol. sr.o.</strong></a
+            >
+          </li>
+          <li>
+            2014 - 2017: <strong>Vedoucí oddělení designu / </strong
+            ><a href="http://www.diracindustries.be" target="_blank"
+              ><strong>Dirac Industries s.r.o.</strong></a
+            >
+          </li>
+          <li>
+            2018 - 2019: <strong>Vedoucí výroby / </strong
+            ><a href="https://www.foxconn.cz/" target="_blank"
+              ><strong>Foxconn Technology s.r.o.</strong></a
+            >
+          </li>
+          <li>
+            2020 - 2021:
+            <strong>Vedoucí oddělení designu, technologie a projektů / </strong
+            ><a href="http://www.diracindustries.be" target="_blank"
+              ><strong>Dirac Industries s.r.o.</strong></a
+            >
+          </li>
+        </ul>
+        <p>
+          Rád se učím novým věcem a ctím dvě motta: "Dobří lidé na sobě neustále
+          pracují." a "To jediné co ti nikdo nevezme, je to co ty sám umíš.".
+          Mojí životní prioritou je rodina a mým největším koníčkem je můj syn,
+          partnerka a IT.
+        </p>
+
+        <p>
+          <a href="./dokumenty/CVcz.pdf"
+            ><img src="./ico/pdf.ico" alt="Pdf ico" /> - <b>Životopis</b></a
+          >
+        </p>
+        <p>
+          <a href="./dokumenty/Certifikát_Základy Java_IT Network.pdf"
+            ><img src="./ico/pdf.ico" alt="Pdf ico" /> -
+            <b>Certifikát - Základy Java (IT Network)</b></a
+          >
+        </p>
+        <p>
+          <a href="./dokumenty/Certifikát_OOP v Javě_IT Network.pdf"
+            ><img src="./ico/pdf.ico" alt="Pdf ico" /> -
+            <b>Certifikát - OOP v Javě (IT Network)</b></a
+          >
+        </p>
+        <p>
+          <a href="./dokumenty/Certifikát_UML_IT Network.pdf"
+            ><img src="./ico/pdf.ico" alt="Pdf ico" /> -
+            <b>Certifikát - UML (IT Network)</b></a
+          >
+        </p>
+        <p>
+          <a href="./dokumenty/Certifikát_Základy Java_Sololearn.pdf"
+            ><img src="./ico/pdf.ico" alt="Pdf ico" /> -
+            <b>Certifikát - Základy Java (Sololearn)</b></a
+          >
+        </p>
+        <p>
+          <a href="./dokumenty/Certifikát_CCNA 1_Cisco.pdf"
+            ><img src="./ico/pdf.ico" alt="Pdf ico" /> -
+            <b>Certifikát - CCNA1 (Cisco)</b></a
+          >
+        </p>
+      </article>
+
+      <!-- Footer -->
+      <footer class="footer">
+        &copy;<span id="year">2021</span>, Pavel Kvasnička,
+        pavelkvasnicka@gmail.com
+        <script>
+          document.getElementById("year").innerHTML = new Date().getFullYear();
+        </script>
+      </footer>
+    </div>
+  </body>
+</html>
+<!-- <script src="footer.js"></script> -->

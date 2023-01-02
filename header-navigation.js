@@ -22,5 +22,3 @@ document.write(`
       </ul>
     </nav>
     `);
-  </div>
-</body>

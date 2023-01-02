@@ -1,0 +1,133 @@
+<!-- <script src="head.js"></script> -->
+<!-- <script src="header-navigation.js"></script> -->
+<!DOCTYPE html>
+<html lang="cs">
+  <!-- Head -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Pavel Kvasnička" />
+    <meta name="keywords" content="Pavel, Kvasnička, prezentace, osobní" />
+    <meta name="robots" content="index,follow" />
+    <link rel="shortcut icon" href="./ico/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <meta
+      name="description"
+      content="Pavel Kvasnička - osobní webové stránky."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Pavel Kvasnička</title>
+  </head>
+  <!-- Body -->
+  <body>
+    <div class="main-container">
+      <!-- Header -->
+      <header class="header" onclick="location.href='./index.html';">
+        <h1 class="header-text">Pavel Kvasnička</h1>
+      </header>
+      <!-- Navigation -->
+      <nav>
+        <ul class="nav">
+          <li class="nav-item" onclick="location.href='./omne.html';">O mně</li>
+          <li class="nav-item" onclick="location.href='./portfolio.html';">
+            Portfolio
+          </li>
+          <li class="nav-item" onclick="location.href='./fotogalerie.html';">
+            Fotogalerie
+          </li>
+          <li class="nav-item" onclick="location.href='./kontakty.html';">
+            Kontakty
+          </li>
+        </ul>
+      </nav>
+      <!-- Main content -->
+      <article class="main-article">
+        <h2>O mně</h2>
+        <p>
+          <img
+            class="image-about-me"
+            src="./foto/Pavel_Kvasnicka_avatar.jpg"
+            alt="Profilová fotografie"
+          />
+          Jmenuji se Pavel Kvasnička, narodil jsem se 28.11.1985 v
+          <a href="http://www.mukolin.cz/cz/o-meste/" target="_blank"
+            ><strong>Kolíně</strong></a
+          >
+          . Mým domovem se na bezmála 20 let stala obec
+          <a href="http://www.obec-krakovany.cz/" target="_blank"
+            ><strong>Krakovany</strong></a
+          >
+          nacházející se 3 km od města
+          <a href="http://www.tynecnadlabem.cz/" target="_blank"
+            ><strong>Týnec nad Labem</strong></a
+          >
+          , kde jsem začal navštěvovat
+          <a href="http://www.zstynecnl.cz/" target="_blank"
+            ><strong>základní školu</strong></a
+          >
+          . Po ukočení základního vzdělání jsem se vzhledem ke své zálibě ve
+          výpočetní technice a elektronice rozhodl dále studovat obor Mechanik
+          elektronik se zaměřením výpočetní technika na
+          <a href="http://www.gyasos-prelouc.cz/" target="_blank"
+            ><strong
+              >Středním odborném učilišti technickém v Přelouči</strong
+            ></a
+          >
+          , který jsem ukončil maturitní zkouškou. Po středoškolských studiích
+          jsem studoval na
+          <a href="http://www.zcu.cz/" target="_blank"
+            ><strong>Západočeské univerzitě v Plzni</strong></a
+          >
+          <a href="http://fel.zcu.cz/" target="_blank"
+            ><strong>Fakulty elektrotechnické</strong></a
+          >
+          obor Komerční elektrotechnika s vedlejším zaměřením energetika,
+          nejprve v bakalářském a následně v magisterském navazujícím stupni.
+        </p>
+        <p>
+          Po úspěšném završení vysokoškolských studií jsem byl součástí týmu
+          několika společností viz níže, kde jsem načerpal mnoho hard /
+          technical a soft / manager skills.
+        </p>
+        <p>
+          Po poslední pracovní zkušenosti jsem se rozhodl dát si profesní pauzu
+          a věnovat se rodině, studiu na
+
+          <a href="https://www.uhk.cz/" target="_blank"
+            ><strong>Univerzitě Hradec Králové</strong></a
+          >
+          <a
+            style="text-decoration: none; color: black"
+            href="https://www.uhk.cz/cs/fakulta-informatiky-a-managementu/fim"
+            target="_blank"
+            ><strong>Fakulty informatiky a managementu</strong></a
+          >
+
+          obor Informační management a stavbě domu.
+        </p>
+        <p>
+          Rád se učím novým věcem a ctím dvě motta: "Dobří lidé na sobě neustále
+          pracují." a "To jediné co ti nikdo nevezme, je to co ty sám umíš.".
+          Mojí životní prioritou je rodina a mým největším koníčkem je můj syn,
+          partnerka a IT.
+        </p>
+      </article>
+
+      <!-- Footer -->
+      <footer class="footer">
+        &copy;<span id="year">2021</span>, Pavel Kvasnička,
+        pavelkvasnicka@gmail.com
+        <script>
+          document.getElementById("year").innerHTML = new Date().getFullYear();
+        </script>
+      </footer>
+    </div>
+  </body>
+</html>
+<!-- <script src="footer.js"></script> -->

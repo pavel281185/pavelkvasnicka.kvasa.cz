@@ -21,6 +21,7 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #231f20;
   color: #000;
+  overflow: hidden;
 }
 
 p {
@@ -120,6 +121,11 @@ a {
   margin: 1.5rem;
 }
 
+.main-article img {
+  margin-right: 1.5rem;
+  margin-right: 1.5rem;
+}
+
 /* Footer */
 .footer {
   display: flex;
@@ -131,4 +137,10 @@ a {
   padding: 10px;
   font-size: 1.6rem;
   font-weight: 500;
+}
+
+.image-about-me {
+  width: 250px;
+  /* display: inline; */
+  float: left;
 }
