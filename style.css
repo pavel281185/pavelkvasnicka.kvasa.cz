@@ -24,10 +24,6 @@ body {
   overflow: hidden;
 }
 
-p {
-  text-indent: 2.5rem;
-}
-
 a {
   text-decoration: none;
   color: #000;
@@ -35,6 +31,7 @@ a {
 
 .main-container {
   margin: 2.4rem auto;
+  /* width: 100%; */
   max-width: 80rem;
   display: flex;
   flex-direction: column;
@@ -112,13 +109,16 @@ a {
   margin: 0.8rem;
 }
 
-.main-article h2 {
+.main-head {
   margin: 1.5rem;
   text-decoration: underline;
+  font-weight: 700;
 }
 
-.main-article p {
+.main-article-paragraph {
   margin: 1.5rem;
+  text-align: justify;
+  text-indent: 2.5rem;
 }
 
 .main-article img {
@@ -143,4 +143,26 @@ a {
   width: 250px;
   /* display: inline; */
   float: left;
+}
+
+.table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.table-head {
+  background-color: #ffe066;
+}
+
+.table-heading-item,
+.table-body-item {
+  border: 1px solid #000;
+  table-layout: auto;
+  /* width: 100% 100%; */
+  padding: 0.8rem;
+}
+
+.link-in-table {
+  /* text-decoration: underline; */
+  border-bottom: 2px solid #000;
 }
