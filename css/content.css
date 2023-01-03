@@ -4,94 +4,6 @@ Gap sizes - 2 / 4/ 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 Border sizes - 2 / 4/ 6 / 10 / 16 / 26 / 42 / 68
 
 */
-/* General setting */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-@import url("https://font-s.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Rubik:wght@400;500;700&display=swap");
-
-body {
-  font-family: "Roboto", sans-serif;
-  background-color: #231f20;
-  /* color: #000; */
-  overflow: hidden;
-  user-select: none;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-}
-
-a {
-  text-decoration: none;
-  color: #000;
-}
-
-.main-container {
-  margin: 2.4rem auto;
-  max-width: 100rem;
-  display: flex;
-  flex-direction: column;
-  border-radius: 15px;
-  gap: 2.4rem;
-}
-
-/* Header */
-.header-text {
-  font-size: 7.4rem;
-  font-weight: 700;
-  color: #000;
-}
-
-.header {
-  background-color: #ffe066;
-  height: 15rem;
-  border-radius: inherit;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-
-.header:hover {
-  text-shadow: 0px 0px 10px #555;
-  box-shadow: 0px 0px 15px 5px #ffe066;
-  background-color: #ffe066;
-  transition: all 0.25s;
-  transform: scale(1.03);
-}
-
-/* Navigation */
-.nav {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 2.4rem;
-}
-
-.nav-item {
-  list-style: none;
-  background-color: #ffe066;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 15px;
-  font-size: 3rem;
-  font-weight: 700;
-  padding: 15px;
-  cursor: pointer;
-}
-.nav-item:hover {
-  text-shadow: 0px 0px 5px #555;
-  box-shadow: 0px 0px 15px 5px #ffe066;
-  background-color: #ffe066;
-  transition: all 0.25s;
-  transform: scale(1.1);
-}
 
 /* Main content */
 .main-article {
@@ -133,19 +45,6 @@ a {
 .main-article img {
   margin-right: 1.5rem;
   margin-right: 1.5rem;
-}
-
-/* Footer */
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-style: italic;
-  background-color: #ffe066;
-  border-radius: inherit;
-  padding: 10px;
-  font-size: 1.6rem;
-  font-weight: 500;
 }
 
 .image-about-me {
@@ -222,7 +121,7 @@ a {
 }
 
 .contact-left {
-  /* background-color: red; */
+  background-color: red;
 }
 
 .contact-left-item {
@@ -230,7 +129,7 @@ a {
 }
 
 .contact-right {
-  /* background-color: blue; */
+  background-color: blue;
 }
 
 .contact-ico {

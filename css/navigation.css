@@ -1,0 +1,26 @@
+/* Navigation */
+.nav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2.4rem;
+}
+
+.nav-item {
+  list-style: none;
+  background-color: #ffe066;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 15px;
+  cursor: pointer;
+}
+.nav-item:hover {
+  text-shadow: 0px 0px 5px #555;
+  box-shadow: 0px 0px 15px 5px #ffe066;
+  background-color: #ffe066;
+  transition: all 0.25s;
+  transform: scale(1.1);
+}

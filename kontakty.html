@@ -4,35 +4,47 @@
 <html lang="cs">
   <!-- Head -->
   <head>
+    <!-- Main head settings -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Pavel Kvasnička" />
     <meta name="keywords" content="Pavel, Kvasnička, prezentace, osobní" />
     <meta name="robots" content="index,follow" />
-    <link rel="shortcut icon" href="./ico/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="css/style.css" />
     <meta
       name="description"
       content="Pavel Kvasnička - osobní webové stránky."
     />
+    <!-- Linked favicon -->
+    <link rel="shortcut icon" href="./ico/favicon.png" type="image/x-icon" />
+    <!-- Linked CSS -->
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="stylesheet" href="css/content.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <!-- Linked font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Rubik:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <!-- Linked Lightbox files -->
+    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css" />
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <!-- Title -->
     <title>Pavel Kvasnička</title>
   </head>
   <!-- Body -->
   <body>
     <div class="main-container">
       <!-- Header -->
-      <header class="header" onclick="location.href='./index.html';">
+      <header class="main-header" onclick="location.href='./index.html';">
         <h1 class="header-text">Pavel Kvasnička</h1>
       </header>
       <!-- Navigation -->
-      <nav>
+      <nav class="main-nav">
         <ul class="nav">
           <li class="nav-item" onclick="location.href='./omne.html';">O mně</li>
           <li class="nav-item" onclick="location.href='./praxe.html';">
@@ -144,7 +156,7 @@
         </div>
       </main>
       <!-- Footer -->
-      <footer class="footer">
+      <footer class="main-footer">
         &copy;<span id="year">2021</span>, Pavel Kvasnička,
         pavelkvasnicka@gmail.com
         <script>
