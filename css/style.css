@@ -20,8 +20,11 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   background-color: #231f20;
-  color: #000;
+  /* color: #000; */
   overflow: hidden;
+  user-select: none;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 a {
@@ -60,7 +63,7 @@ a {
   box-shadow: 0px 0px 15px 5px #ffe066;
   background-color: #ffe066;
   transition: all 0.25s;
-  transform: scale(1.1);
+  transform: scale(1.03);
 }
 
 /* Navigation */
@@ -193,4 +196,46 @@ a {
 .gallery a img:hover {
   transform: scale(1.05);
   box-shadow: 0px 0px 15px 5px #ffe066;
+}
+
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  justify-items: left;
+  gap: 1.5rem;
+}
+
+.contact-form-area {
+  resize: none;
+  font-size: 2rem;
+}
+
+.contact-form-text {
+  justify-self: end;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex-shrink: 1;
+}
+
+.contact-left {
+  /* background-color: red; */
+}
+
+.contact-left-item {
+  margin-bottom: 1.5rem;
+}
+
+.contact-right {
+  /* background-color: blue; */
+}
+
+.contact-ico {
+  width: 20px;
+  height: 20px;
+  vertical-align: text-bottom;
+  border: none;
 }
