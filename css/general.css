@@ -28,7 +28,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100rem;
+  max-width: 100rem;
   min-height: calc(100vh - 18rem);
   margin: 0 auto;
   background-color: #f3f3f3;
@@ -44,6 +44,14 @@ a {
 .main-article-paragraph,
 .main-article ul li {
   color: #444444;
+}
+
+.link-to-another-site-page:link,
+.link-to-another-site-page:visited,
+.main-article-document-item a:link,
+.main-article-document-item a:visited {
+  color: #444444;
+  border-bottom: 2px solid #444444;
 }
 
 .main-footer,

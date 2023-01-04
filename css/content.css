@@ -28,7 +28,6 @@
   margin: 1.5rem;
   justify-content: center;
   display: inline-block;
-
   align-items: center;
 }
 
@@ -38,7 +37,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 2px solid #444444;
 }
 
 .main-article-document-item a:hover,
@@ -46,7 +44,7 @@
   text-decoration: none;
 }
 
-*/ .main-article img {
+.main-article img {
   margin-right: 1.5rem;
   margin-right: 1.5rem;
 }
@@ -60,6 +58,7 @@
   width: 250px;
   float: left;
   margin-right: 2rem;
+  border: 1px solid #0e0e0e;
 }
 
 .table {
@@ -82,7 +81,6 @@
 .link-to-another-site-page:link,
 .link-to-another-site-page:visited {
   text-indent: 2.5rem;
-  border-bottom: 2px solid #888888;
   transition: all 0.25s;
 }
 
@@ -104,20 +102,22 @@
 }
 
 .contact-form {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  justify-items: left;
+  align-items: center;
   gap: 1.5rem;
 }
 
-.contact-form-area {
+.contact-form-area,
+contact {
   resize: none;
   font-size: 2rem;
 }
 
 .contact-form-text {
   justify-self: end;
+  text-align: center;
 }
 
 .contact {
@@ -125,27 +125,39 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 5rem;
 }
 
 .contact-left {
-  background-color: red;
+  /* background-color: red; */
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
 }
 
-.contact-right {
-  background-color: blue;
+.contact-left-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
-.contact-ico {
-  width: 20px;
-  height: 20px;
-  vertical-align: text-bottom;
-  border: none;
+.contact-right {
+  /* background-color: blue; */
 }
 
 .icon {
   height: 25px;
+}
+
+form button {
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+  font-weight: 700;
+  background-color: #f3f3f3;
+}
+
+form button:hover {
+  background-color: #888888;
 }
