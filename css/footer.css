@@ -4,9 +4,9 @@
   justify-content: center;
   align-items: center;
   font-style: italic;
-  background-color: #ffe066;
-  border-radius: inherit;
-  padding: 10px;
   font-size: 1.6rem;
   font-weight: 500;
+  position: sticky;
+  bottom: 0;
+  height: 3rem;
 }

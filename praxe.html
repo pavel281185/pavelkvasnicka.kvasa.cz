@@ -38,7 +38,8 @@
   </head>
   <!-- Body -->
   <body>
-    <div class="main-container">
+    <!-- <div class="main-container"> -->
+    <div class="header">
       <!-- Header -->
       <header class="main-header" onclick="location.href='./index.html';">
         <h1 class="header-text">Pavel Kvasnička</h1>
@@ -58,7 +59,9 @@
           </li>
         </ul>
       </nav>
-      <!-- Main content -->
+    </div>
+    <!-- Main content -->
+    <div class="master">
       <main class="main-article">
         <h2 class="main-head">Praxe</h2>
         <h3 class="main-head">Minulost</h3>
@@ -82,10 +85,10 @@
               <td class="table-body-item">Projektant elektrických zařízení</td>
               <td class="table-body-item">
                 <a
-                  class="link-in-table"
+                  class="link-to-another-site-page"
                   href="http://www.p-en.cz/"
                   target="_blank"
-                  >PEN - projekty energetiky s.r.o.</a
+                  ><strong>PEN - projekty energetiky s.r.o.</strong></a
                 >
               </td>
             </tr>
@@ -94,10 +97,10 @@
               <td class="table-body-item">Vedoucí projektů</td>
               <td class="table-body-item">
                 <a
-                  class="link-in-table"
+                  class="link-to-another-site-page"
                   href="https://beck-pollitzer.com/cs/"
                   target="_blank"
-                  >Beck & Pollitzer Czech spol. sr.o.</a
+                  ><strong>Beck & Pollitzer Czech spol. sr.o.</strong></a
                 >
               </td>
             </tr>
@@ -106,10 +109,10 @@
               <td class="table-body-item">Vedoucí oddělení designu</td>
               <td class="table-body-item">
                 <a
-                  class="link-in-table"
+                  class="link-to-another-site-page"
                   href="http://www.diracindustries.be"
                   target="_blank"
-                  >Dirac Industries s.r.o.</a
+                  ><strong>Dirac Industries s.r.o.</strong></a
                 >
               </td>
             </tr>
@@ -118,10 +121,10 @@
               <td class="table-body-item">Vedoucí výroby</td>
               <td class="table-body-item">
                 <a
-                  class="link-in-table"
+                  class="link-to-another-site-page"
                   href="https://www.foxconn.cz/"
                   target="_blank"
-                  >Foxconn Technology s.r.o.</a
+                  ><strong>Foxconn Technology s.r.o.</strong></a
                 >
               </td>
             </tr>
@@ -130,11 +133,11 @@
               <td class="table-body-item">Vedoucí oddělení designu</td>
               <td class="table-body-item">
                 <a
-                  class="link-in-table"
+                  class="link-to-another-site-page"
                   href="http://www.diracindustries.be"
                   target="_blank"
-                  >Dirac Industries s.r.o.</a
-                >
+                  ><strong>Dirac Industries s.r.o.</strong>
+                </a>
               </td>
             </tr>
           </tbody>
@@ -151,11 +154,34 @@
           zkušenost byla v tomto ohledu velké zklamání, rozhodl jsem se dělat to
           co mě vždy naplňovalo a k čemu jsem měl vždy hodně blízko - IT.
         </p>
-        <p class="main-article-document-item">
-          <a href="./dokumenty/CVcz.pdf" target="_blank"
-            ><img src="./ico/pdf.ico" alt="Pdf ico" /> - <b>Životopis</b></a
-          >
-        </p>
+        <div class="item">
+          <p class="main-article-document-item">
+            <a href="./dokumenty/Životopis_Pavel Kvasnička.pdf" target="_blank">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
+                />
+              </svg>
+              <b> - Životopis</b></a
+            >
+          </p>
+        </div>
+
+        <!-- <p class="main-article-document-item">
+        <a href="./dokumenty/CVcz.pdf" target="_blank">
+          <img src="./ico/aaa.png" alt="Pdf ico" />
+          - <b>Životopis</b></a
+        >
+      </p> -->
         <h3 class="main-head">Přítomnost (budoucnost)</h3>
         <p class="main-article-paragraph">
           V rámci studia na vysoké škole jsem měl možnost seznámit se s UML,
@@ -167,71 +193,169 @@
           k sebevzdělávání IT Network a Udemy na kterých absolvuji kurzy hlavně
           FE a občas i BE.
         </p>
-
-        <p class="main-article-document-item">
-          <a
-            href="./dokumenty/Certifikát_Základy Java_IT Network.pdf"
-            target="_blank"
-            ><img src="./ico/pdf.ico" alt="Pdf ico" /> -
-            <b>Certifikát - Základy Java (IT Network)</b></a
-          >
-        </p>
-        <p class="main-article-document-item">
-          <a
-            href="./dokumenty/Certifikát_OOP v Javě_IT Network.pdf"
-            target="_blank"
-            ><img src="./ico/pdf.ico" alt="Pdf ico" /> -
-            <b>Certifikát - OOP v Javě (IT Network)</b></a
-          >
-        </p>
-        <p class="main-article-document-item">
-          <a href="./dokumenty/Certifikát_UML_IT Network.pdf" target="_blank"
-            ><img src="./ico/pdf.ico" alt="Pdf ico" /> -
-            <b>Certifikát - UML (IT Network)</b></a
-          >
-        </p>
-        <p class="main-article-document-item">
-          <a
-            href="./dokumenty/Certifikát_Základy Java_Sololearn.pdf"
-            target="_blank"
-            ><img src="./ico/pdf.ico" alt="Pdf ico" /> -
-            <b>Certifikát - Základy Java (Sololearn)</b></a
-          >
-        </p>
-        <p class="main-article-document-item">
-          <a href="./dokumenty/Certifikát_CCNA 1_Cisco.pdf" target="_blank"
-            ><img src="./ico/pdf.ico" alt="Pdf ico" /> -
-            <b>Certifikát - CCNA1 (Cisco)</b></a
-          >
-        </p>
-        <p class="main-article-document-item">
-          <a href="./dokumenty/Certifikát_Git_IT Network.pdf" target="_blank"
-            ><img src="./ico/pdf.ico" alt="Pdf ico" /> -
-            <b>Certifikát - Git (IT Network)</b></a
-          >
-        </p>
-        <p class="main-article-document-item">
-          <a
-            href="./dokumenty/Certifikát_Build Responsive Real-World Websites with HTML and CSS_Udemy.pdf"
-            target="_blank"
-            ><img src="./ico/pdf.ico" alt="Pdf ico" /> -
-            <b
-              >Certifikát - Build Responsive Real-World Websites with HTML and
-              CSS (Udemy)</b
-            ></a
-          >
-        </p>
+        <div class="item">
+          <p class="main-article-document-item">
+            <a
+              href="./dokumenty/Certifikát_Základy Java_IT Network.pdf"
+              target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
+                /></svg
+              ><b>Certifikát - Základy Java (IT Network)</b></a
+            >
+          </p>
+        </div>
+        <div class="item">
+          <p class="main-article-document-item">
+            <a
+              href="./dokumenty/Certifikát_OOP v Javě_IT Network.pdf"
+              target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
+                /></svg
+              ><b>Certifikát - OOP v Javě (IT Network)</b></a
+            >
+          </p>
+        </div>
+        <div class="item">
+          <p class="main-article-document-item">
+            <a href="./dokumenty/Certifikát_UML_IT Network.pdf" target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
+                /></svg
+              ><b>Certifikát - UML (IT Network)</b></a
+            >
+          </p>
+        </div>
+        <div class="item">
+          <p class="main-article-document-item">
+            <a
+              href="./dokumenty/Certifikát_Základy Java_Sololearn.pdf"
+              target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
+                /></svg
+              ><b>Certifikát - Základy Java (Sololearn)</b></a
+            >
+          </p>
+        </div>
+        <div class="item">
+          <p class="main-article-document-item">
+            <a href="./dokumenty/Certifikát_CCNA 1_Cisco.pdf" target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
+                /></svg
+              ><b>Certifikát - CCNA1 (Cisco)</b></a
+            >
+          </p>
+        </div>
+        <div class="item">
+          <p class="main-article-document-item">
+            <a href="./dokumenty/Certifikát_Git_IT Network.pdf" target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
+                /></svg
+              ><b>Certifikát - Git (IT Network)</b></a
+            >
+          </p>
+        </div>
+        <div class="item">
+          <p class="main-article-document-item">
+            <a
+              href="./dokumenty/Certifikát_Build Responsive Real-World Websites with HTML and CSS_Udemy.pdf"
+              target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
+                /></svg
+              ><b
+                >Certifikát - Build Responsive Real-World Websites with HTML and
+                CSS (Udemy)</b
+              ></a
+            >
+          </p>
+        </div>
       </main>
-
-      <!-- Footer -->
-      <footer class="main-footer">
-        &copy;<span id="year">2021</span>, Pavel Kvasnička,
-        pavelkvasnicka@gmail.com
-        <script>
-          document.getElementById("year").innerHTML = new Date().getFullYear();
-        </script>
-      </footer>
     </div>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      &copy;<span id="year">2021</span>, Pavel Kvasnička,
+      pavelkvasnicka@gmail.com
+      <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+      </script>
+    </footer>
+    <!-- </div> -->
   </body>
 </html>
 <!-- <script src="footer.js"></script> -->
