@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1>Odesílání emailu</h1>
-<?
+<?php
 $jmeno = $_POST['jmeno'];
 $email = $_POST['email'];
 $spam = $_POST['spam'];
@@ -14,7 +14,7 @@ $zprava = $_POST['zprava'];
 
 if ($jmeno!="" and $email!="" and $zprava!="" and $spam=="2")
 {
-Mail("pavelkvasnicka@gmail.com", $jmemno, $zprava, "From: " . $email);
+Mail("pavelkvasnicka@gmail.com", $jmeno, $zprava, "From: " . $email);
 echo "<p><strong>Váš e-mail byl úspěšně odeslán</strong>.</p>";
 }
 else
