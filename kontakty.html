@@ -18,18 +18,11 @@
     <!-- Linked favicon -->
     <link rel="shortcut icon" href="./ico/favicon.png" type="image/x-icon" />
     <!-- Linked CSS -->
-    <link rel="stylesheet" href="css/general.css" />
-    <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/navigation.css" />
-    <link rel="stylesheet" href="css/content.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-    <!-- Linked font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Rubik:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="css/general.css" type="text/css" />
+    <link rel="stylesheet" href="css/header.css" type="text/css" />
+    <link rel="stylesheet" href="css/navigation.css" type="text/css" />
+    <link rel="stylesheet" href="css/content.css" type="text/css" />
+    <link rel="stylesheet" href="css/footer.css" type="text/css" />
     <!-- Linked Lightbox files -->
     <link rel="stylesheet" type="text/css" href="css/lightbox.min.css" />
     <script src="js/lightbox-plus-jquery.min.js"></script>
@@ -38,12 +31,11 @@
   </head>
   <!-- Body -->
   <body>
-    <!-- <div class="main-container"> -->
     <div class="header">
       <!-- Header -->
-      <header class="main-header" onclick="location.href='./index.html';">
-        <h1 class="header-text">Pavel Kvasnička</h1>
-      </header>
+      <h1 class="header-text" onclick="location.href='./index.html';">
+        Pavel Kvasnička
+      </h1>
       <!-- Navigation -->
       <nav class="main-nav">
         <ul class="nav">
@@ -63,70 +55,76 @@
     <!-- Main content -->
     <div class="master">
       <main class="main-article">
-        <h2 class="main-head">Kontakty</h2>
-        <div class="contact">
-          <div class="contact-left">
-            <div class="contact-left-item">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="icon"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
-                />
-              </svg>
+        <header>
+          <h2 class="main-head">Kontakty</h2>
+        </header>
+        <section>
+          <div class="contact">
+            <div class="contact-left">
+              <div class="contact-left-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
+                  />
+                </svg>
 
-              <b>Mobil</b><a href="tel:+420606651284">+420 606 651 284</a>
-            </div>
-            <div class="contact-left-item">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="icon"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
-                />
-              </svg>
-              <b>E-mail</b
-              ><a href="mailto:pavelkvasnicka@gmail.com"
-                >pavelkvasnicka@gmail.com</a
-              >
-            </div>
-            <div class="contact-left-item">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="icon"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
-                />
-              </svg>
-              <b>LinkedIn</b
-              ><a
-                href="https://www.linkedin.com/in/pavel-kvasni%C4%8Dka-6a426738/"
-                target="_blank"
-                >Pavel Kvasnička</a
-              >
+                <b>Mobil</b><a href="tel:+420606651284">+420 606 651 284</a>
+              </div>
+              <div class="contact-left-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+                  />
+                </svg>
+                <b>E-mail</b
+                ><a href="mailto:pavelkvasnicka@gmail.com"
+                  >pavelkvasnicka@gmail.com</a
+                >
+              </div>
+              <div class="contact-left-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
+                  />
+                </svg>
+                <b>LinkedIn</b
+                ><a
+                  href="https://www.linkedin.com/in/pavel-kvasni%C4%8Dka-6a426738/"
+                  target="_blank"
+                  >Pavel Kvasnička</a
+                >
+              </div>
             </div>
           </div>
+        </section>
+        <section>
           <div class="contact-right">
             <form class="contact-form" action="posli.php" method="post">
               <label class="contact-form-text" for="">Jméno:</label>
@@ -159,10 +157,10 @@
                 type="text"
                 size="30"
               />
-              <button>Odeslat</button>
+              <input class="submit-button" type="submit" />
             </form>
           </div>
-        </div>
+        </section>
       </main>
     </div>
     <!-- Footer -->

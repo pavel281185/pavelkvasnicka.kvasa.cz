@@ -12,7 +12,6 @@
   font-weight: 700;
   cursor: pointer;
   transition: all 0.25s;
-  /* margin: 0 1.5rem; */
 }
 .nav-item:hover {
   transform: scale(1.1);

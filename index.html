@@ -18,18 +18,11 @@
     <!-- Linked favicon -->
     <link rel="shortcut icon" href="./ico/favicon.png" type="image/x-icon" />
     <!-- Linked CSS -->
-    <link rel="stylesheet" href="css/general.css" />
-    <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/navigation.css" />
-    <link rel="stylesheet" href="css/content.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-    <!-- Linked font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Rubik:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="css/general.css" type="text/css" />
+    <link rel="stylesheet" href="css/header.css" type="text/css" />
+    <link rel="stylesheet" href="css/navigation.css" type="text/css" />
+    <link rel="stylesheet" href="css/content.css" type="text/css" />
+    <link rel="stylesheet" href="css/footer.css" type="text/css" />
     <!-- Linked Lightbox files -->
     <link rel="stylesheet" type="text/css" href="css/lightbox.min.css" />
     <script src="js/lightbox-plus-jquery.min.js"></script>
@@ -38,12 +31,11 @@
   </head>
   <!-- Body -->
   <body>
-    <!-- <div class="main-container"> -->
     <div class="header">
       <!-- Header -->
-      <header class="main-header" onclick="location.href='./index.html';">
-        <h1 class="header-text">Pavel Kvasnička</h1>
-      </header>
+      <h1 class="header-text" onclick="location.href='./index.html';">
+        Pavel Kvasnička
+      </h1>
       <!-- Navigation -->
       <nav class="main-nav">
         <ul class="nav">
@@ -63,54 +55,58 @@
     <!-- Main content -->
     <div class="master">
       <main class="main-article">
-        <h2 class="main-head">Vítejte na mých osobních stránkách</h2>
-        <p class="main-article-paragraph">
-          Vážení návštěvníci, vítejte na mých osobních webových stránkách.
-          Velice si vážím vašeho zájmu a pevně věřím, že zde naleznete užitečné
-          informace. Předně byl tento web založen a nyní je určen k prezentaci
-          mé osoby pro širokou veřejnost. V několika sekcích, viz níže,
-          naleznete informace o mé osobě.
-        </p>
+        <header>
+          <h2 class="main-head">Vítejte na mých osobních stránkách</h2>
+        </header>
+        <section>
+          <p class="main-article-paragraph">
+            Vážení návštěvníci, vítejte na mých osobních webových stránkách.
+            Velice si vážím vašeho zájmu a pevně věřím, že zde naleznete
+            užitečné informace. Předně byl tento web založen a nyní je určen k
+            prezentaci mé osoby pro širokou veřejnost. V několika sekcích, viz
+            níže, naleznete informace o mé osobě.
+          </p>
 
-        <p class="main-article-paragraph">
-          Jsem rád, že jste navštívili mojí stránku a budu rád, pokud mé stránky
-          navštívíte znovu. Máte-li nějaké dotazy či chcete-li se podělit o své
-          dojmy z této návštěvy nebo mi jen něco sdělit, můžete tak učinit skrze
-          <a class="link-to-another-site-page" href="./kontakty.html#kontakty"
-            ><strong>Kontakty</strong></a
-          >.
-        </p>
-
-        <p class="main-article-paragraph">
-          V jednotlivých sekcích naleznete:<br />
-        </p>
-        <ul>
-          <li>
-            <a class="link-to-another-site-page" href="./omne.html"
-              ><strong>O mně</strong></a
-            >
-            - kdo jsem, odkud jsem
-          </li>
-          <li>
-            <a class="link-to-another-site-page" href="./praxe.html"
-              ><strong>Praxe</strong></a
-            >
-            - pracovní zkušenosti, co umím, CV
-          </li>
-          <li>
-            <a class="link-to-another-site-page" href="./fotogalerie.html"
-              ><strong>Fotogalerie</strong></a
-            >
-            - malá fotogalerie
-          </li>
-          <li>
-            <a class="link-to-another-site-page" href="./kontakty.html"
+          <p class="main-article-paragraph">
+            Jsem rád, že jste navštívili mojí stránku a budu rád, pokud mé
+            stránky navštívíte znovu. Máte-li nějaké dotazy či chcete-li se
+            podělit o své dojmy z této návštěvy nebo mi jen něco sdělit, můžete
+            tak učinit skrze
+            <a class="link-to-another-site-page" href="./kontakty.html#kontakty"
               ><strong>Kontakty</strong></a
-            >
-            - Mobil, E-mail, LinkedIn
-          </li>
-        </ul>
-        <br />
+            >.
+          </p>
+
+          <p class="main-article-paragraph">
+            V jednotlivých sekcích naleznete:<br />
+          </p>
+          <ul>
+            <li>
+              <a class="link-to-another-site-page" href="./omne.html"
+                ><strong>O mně</strong></a
+              >
+              - kdo jsem, odkud jsem
+            </li>
+            <li>
+              <a class="link-to-another-site-page" href="./praxe.html"
+                ><strong>Praxe</strong></a
+              >
+              - pracovní zkušenosti, co umím, CV
+            </li>
+            <li>
+              <a class="link-to-another-site-page" href="./fotogalerie.html"
+                ><strong>Fotogalerie</strong></a
+              >
+              - malá fotogalerie
+            </li>
+            <li>
+              <a class="link-to-another-site-page" href="./kontakty.html"
+                ><strong>Kontakty</strong></a
+              >
+              - Mobil, E-mail, LinkedIn
+            </li>
+          </ul>
+        </section>
       </main>
     </div>
     <!-- Footer -->

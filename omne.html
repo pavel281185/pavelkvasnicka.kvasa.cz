@@ -18,18 +18,11 @@
     <!-- Linked favicon -->
     <link rel="shortcut icon" href="./ico/favicon.png" type="image/x-icon" />
     <!-- Linked CSS -->
-    <link rel="stylesheet" href="css/general.css" />
-    <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/navigation.css" />
-    <link rel="stylesheet" href="css/content.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-    <!-- Linked font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Rubik:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="css/general.css" type="text/css" />
+    <link rel="stylesheet" href="css/header.css" type="text/css" />
+    <link rel="stylesheet" href="css/navigation.css" type="text/css" />
+    <link rel="stylesheet" href="css/content.css" type="text/css" />
+    <link rel="stylesheet" href="css/footer.css" type="text/css" />
     <!-- Linked Lightbox files -->
     <link rel="stylesheet" type="text/css" href="css/lightbox.min.css" />
     <script src="js/lightbox-plus-jquery.min.js"></script>
@@ -38,12 +31,11 @@
   </head>
   <!-- Body -->
   <body>
-    <!-- <div class="main-container"> -->
     <div class="header">
       <!-- Header -->
-      <header class="main-header" onclick="location.href='./index.html';">
-        <h1 class="header-text">Pavel Kvasnička</h1>
-      </header>
+      <h1 class="header-text" onclick="location.href='./index.html';">
+        Pavel Kvasnička
+      </h1>
       <!-- Navigation -->
       <nav class="main-nav">
         <ul class="nav">
@@ -60,90 +52,119 @@
         </ul>
       </nav>
     </div>
-      <!-- Main content -->
-      <div class="master">
+    <!-- Main content -->
+    <div class="master">
       <main class="main-article">
-        <h2 class="main-head">O mně</h2>
+        <header>
+          <h2 class="main-head">O mně</h2>
+        </header>
+        <section>
+          <p class="main-article-paragraph">
+            <img
+              class="image-about-me"
+              src="./foto/Pavel_Kvasnicka_avatar.webp"
+              alt="Profilová fotografie"
+            />
+          </p>
+          <h3 class="main-head">Obecně</h3>
+          <p class="main-article-paragraph">
+            Jmenuji se Pavel Kvasnička, narodil jsem se 28.11.1985 v
+            <a
+              class="link-to-another-site-page"
+              href="https://www.mukolin.cz/o-meste/ms-1006/p1=1006"
+              target="_blank"
+              ><strong>Kolíně</strong></a
+            >. Mým domovem se na bezmála 20 let stala obec
+            <a
+              class="link-to-another-site-page"
+              href="http://www.obec-krakovany.cz/"
+              target="_blank"
+              ><strong>Krakovany</strong></a
+            >
+            nacházející se 3 km od městyse
+            <a
+              class="link-to-another-site-page"
+              href="http://www.tynecnadlabem.cz/"
+              target="_blank"
+              ><strong>Týnec nad Labem</strong></a
+            >. Po dobu VŠ studia jsem pobýval v Plzni, následně 2 roky v
+            Pardubicích a posledních 8 let žiji v Kolíně. Mám syna 2 roky a
+            partnerku.
+          </p>
+        </section>
+        <section>
+          <h3 class="main-head">Vzdělání</h3>
+          <p class="main-article-paragraph">
+            Po ukočení základního vzdělání jsem se vzhledem ke své zálibě ve
+            výpočetní technice a elektronice rozhodl dále studovat obor Mechanik
+            elektronik se zaměřením výpočetní technika na
+            <a
+              class="link-to-another-site-page"
+              href="http://www.gyasos-prelouc.cz/"
+              target="_blank"
+              ><strong
+                >Středním odborném učilišti technickém v Přelouči</strong
+              ></a
+            >, který jsem ukončil maturitní zkouškou.
+          </p>
+          <p class="main-article-paragraph">
+            Po středoškolských studiích jsem studoval na
+            <a
+              class="link-to-another-site-page"
+              href="http://www.zcu.cz/"
+              target="_blank"
+              ><strong>Západočeské univerzitě v Plzni</strong></a
+            >
+            <a
+              class="link-to-another-site-page"
+              href="http://fel.zcu.cz/"
+              target="_blank"
+              ><strong>Fakulty elektrotechnické</strong></a
+            >
+            obor Komerční elektrotechnika s vedlejším zaměřením energetika,
+            nejprve v bakalářském a následně v magisterském navazujícím stupni.
+          </p>
+          <p class="main-article-paragraph">
+            Po deseti letech od posledního usednutí do lavice jsem se rozhodl
+            splnit si sen a začal jsem studovat na
 
-        <p class="main-article-paragraph">
-          <img
-            class="image-about-me"
-            src="./foto/Pavel_Kvasnicka_avatar.webp"
-            alt="Profilová fotografie"
-          />
-        </p>
+            <a
+              class="link-to-another-site-page"
+              href="https://www.uhk.cz/"
+              target="_blank"
+              ><strong>Univerzitě Hradec Králové</strong></a
+            >
+            <a
+              class="link-to-another-site-page"
+              href="https://www.uhk.cz/cs/fakulta-informatiky-a-managementu/fim"
+              target="_blank"
+              ><strong>Fakulty informatiky a managementu</strong></a
+            >
 
-        <h3 class="main-head">Obecně</h3>
-        <p class="main-article-paragraph">
-          Jmenuji se Pavel Kvasnička, narodil jsem se 28.11.1985 v
-          <a
-          class="link-to-another-site-page"href="https://www.mukolin.cz/o-meste/ms-1006/p1=1006"
-            target="_blank"
-            ><strong>Kolíně</strong></a
-          >. Mým domovem se na bezmála 20 let stala obec
-          <a class="link-to-another-site-page"href="http://www.obec-krakovany.cz/" target="_blank"
-            ><strong>Krakovany</strong></a
-          >
-          nacházející se 3 km od městyse
-          <a class="link-to-another-site-page"href="http://www.tynecnadlabem.cz/" target="_blank"
-            ><strong>Týnec nad Labem</strong></a
-          >. Po dobu VŠ studia jsem pobýval v Plzni, následně 2 roky v
-          Pardubicích a posledních 8 let žiji v Kolíně. Mám syna 2 roky a
-          partnerku.
-        </p>
-        <h3 class="main-head">Vzdělání</h3>
-        <p class="main-article-paragraph">
-          Po ukočení základního vzdělání jsem se vzhledem ke své zálibě ve
-          výpočetní technice a elektronice rozhodl dále studovat obor Mechanik
-          elektronik se zaměřením výpočetní technika na
-          <a class="link-to-another-site-page" href="http://www.gyasos-prelouc.cz/" target="_blank"
-            ><strong
-              >Středním odborném učilišti technickém v Přelouči</strong
-            ></a
-          >, který jsem ukončil maturitní zkouškou.
-        </p>
-        <p class="main-article-paragraph">
-          Po středoškolských studiích jsem studoval na
-          <a class="link-to-another-site-page" href="http://www.zcu.cz/" target="_blank"
-            ><strong>Západočeské univerzitě v Plzni</strong></a
-          >
-          <a class="link-to-another-site-page" href="http://fel.zcu.cz/" target="_blank"
-            ><strong>Fakulty elektrotechnické</strong></a
-          >
-          obor Komerční elektrotechnika s vedlejším zaměřením energetika,
-          nejprve v bakalářském a následně v magisterském navazujícím stupni.
-        </p>
-        <p class="main-article-paragraph">
-          Po deseti letech od posledního usednutí do lavice jsem se rozhodl
-          splnit si sen a začal jsem studovat na
-
-          <a class="link-to-another-site-page" href="https://www.uhk.cz/" target="_blank"
-            ><strong>Univerzitě Hradec Králové</strong></a
-          >
-          <a
-          class="link-to-another-site-page" 
-            href="https://www.uhk.cz/cs/fakulta-informatiky-a-managementu/fim"
-            target="_blank"
-            ><strong>Fakulty informatiky a managementu</strong></a
-          >
-
-          obor Informační management. Rád se učím novým věcem, takže studium VŠ
-          je mým koníčkem a pokud se zároveň jedná o IT, tak nevím co si více
-          přát.
-        </p>
-        <h3 class="main-head">Osobnostní profil</h3>
-        <p></p>
+            obor Informační management. Rád se učím novým věcem, takže studium
+            VŠ je mým koníčkem a pokud se zároveň jedná o IT, tak nevím co si
+            více přát.
+          </p>
+        </section>
+        <section>
+          <h3 class="main-head">Osobnostní profil</h3>
+          <p>
+            <meter value="14417" min="0" max="14417">14417</meter>14,417 Total
+            Visits<br />
+            <progress id="goal" value="5000" max="10000">5000</progress
+            ><label for="goal"> Progress Towards Our Goal</label>
+          </p>
+        </section>
       </main>
     </div>
-      <!-- Footer -->
-      <footer class="main-footer">
-        &copy;<span id="year">2021</span>, Pavel Kvasnička,
-        pavelkvasnicka@gmail.com
-        <script>
-          document.getElementById("year").innerHTML = new Date().getFullYear();
-        </script>
-      </footer>
-    </div>
+    <!-- Footer -->
+    <footer class="main-footer">
+      &copy;<span id="year">2021</span>, Pavel Kvasnička,
+      pavelkvasnicka@gmail.com
+      <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+      </script>
+    </footer>
   </body>
 </html>
 <!-- <script src="footer.js"></script> -->
