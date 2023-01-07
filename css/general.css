@@ -75,7 +75,8 @@ a {
 }
 
 .header-text:hover,
-.nav-item:hover {
+.nav-item:hover,
+.aktivni {
   color: #fff;
   text-shadow: 0px 0px 10px #fff;
 }

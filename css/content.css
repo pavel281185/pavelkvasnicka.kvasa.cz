@@ -54,6 +54,7 @@
   float: left;
   margin-right: 2rem;
   border: 1px solid #0e0e0e;
+  filter: grayscale(1);
 }
 
 .table {
@@ -104,6 +105,7 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  margin-top: 3rem;
 }
 
 .contact-form-area,
@@ -115,14 +117,6 @@ contact {
 .contact-form-text {
   justify-self: end;
   text-align: center;
-}
-
-.contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 5rem;
 }
 
 .contact-left {
