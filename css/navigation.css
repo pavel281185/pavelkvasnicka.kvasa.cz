@@ -2,6 +2,7 @@
 .nav {
   display: flex;
   gap: 3rem;
+  height: 5rem;
 }
 
 .nav-item {
