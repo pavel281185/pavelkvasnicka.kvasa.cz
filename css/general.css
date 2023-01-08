@@ -31,18 +31,14 @@ body {
   font-family: "Poppins", sans-serif;
   overflow: hidden;
   user-select: none;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
 }
 
 a {
-  text-decoration: none;
-  color: #000;
+  color: #444444;
 }
 
 .master {
   display: flex;
-  justify-content: center;
   align-items: center;
   max-width: 96rem;
   min-height: calc(100vh - 18rem);
@@ -53,8 +49,6 @@ a {
 .header-text,
 .nav-item,
 .main-footer,
-.link-to-another-site-page:link,
-.link-to-another-site-page:visited,
 .main-article-document-item a:link,
 .main-article-document-item a:visited,
 .main-article-paragraph,
@@ -62,8 +56,6 @@ a {
   color: #444444;
 }
 
-.link-to-another-site-page:link,
-.link-to-another-site-page:visited,
 .main-article-document-item a:link,
 .main-article-document-item a:visited {
   border-bottom: 2px solid #444444;
@@ -81,10 +73,7 @@ a {
   text-shadow: 0px 0px 10px #fff;
 }
 
-.link-to-another-site-page:hover,
-.link-to-another-site-page:active,
-.main-article-document-item a:hover,
-.main-article-document-item a:active {
+a:hover,
+a:active {
   color: #0e0e0e;
-  border-bottom: 2px solid #0e0e0e;
 }

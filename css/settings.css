@@ -3,14 +3,10 @@ Font sizes - 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86
 Gap sizes - 2 / 4/ 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 Border sizes - 2 / 4/ 6 / 10 / 16 / 26 / 42 / 68
 
-#0e0e0e
-#888888
+#0e0e0e - header and footer
 #444444 - text
+#888888 - heading of table
 #c4c4c4
-#f3f3f3
-#ffffff
-
-
-
-
+#f3f3f3 - background of main part
+#ffffff - choosen part of header
 */

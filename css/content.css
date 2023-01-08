@@ -42,11 +42,13 @@
 .main-article-document-item a:hover,
 .main-article-document-item a:active {
   text-decoration: none;
+  color: #0e0e0e;
 }
 
 .item {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
+  display: inline-block;
 }
 
 .image-about-me {
@@ -57,10 +59,16 @@
   filter: grayscale(1);
 }
 
+/* Table */
+.pokus {
+  overflow-x: auto;
+}
+
 .table {
   border-collapse: collapse;
   margin: auto;
   border: 3px solid #0e0e0e;
+  overflow-x: auto;
 }
 
 .table-head,
@@ -75,12 +83,15 @@
   padding: 0.8rem;
 }
 
-.link-to-another-site-page:link,
-.link-to-another-site-page:visited {
-  text-indent: 2.5rem;
-  transition: all 0.25s;
+.table-body-item {
+  color: #444444;
 }
 
+.table-body tr:nth-child(even) {
+  background-color: #c4c4c4;
+}
+
+/* Galery */
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -99,6 +110,7 @@
   box-shadow: 0px 0px 15px 5px #888888;
 }
 
+/* Contact form */
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -119,6 +131,15 @@ contact {
   text-align: center;
 }
 
+.submit-button {
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+  font-weight: 700;
+  background-color: #f3f3f3;
+}
+
+/* Contact informations */
 .contact-left {
   display: flex;
   flex-direction: column;
@@ -132,14 +153,7 @@ contact {
   gap: 1rem;
 }
 
+/* Icons */
 .icon {
   height: 25px;
-}
-
-.submit-button {
-  padding: 1rem 2rem;
-  font-size: 2rem;
-  cursor: pointer;
-  font-weight: 700;
-  background-color: #f3f3f3;
 }
