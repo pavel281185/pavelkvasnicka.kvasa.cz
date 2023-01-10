@@ -41,19 +41,15 @@ html {
   --h-a-f-c: #0e0e0e;
   --t: #444444;
   --h-o-t: #888888;
+  --t-l-c: #c4c4c4;
   --b-o-m-p: #f3f3f3;
   --ch-p-o-h: #fff;
-  --t-l-c: #c4c4c4;
 }
 
 body {
   font-family: "Poppins", sans-serif;
   overflow: hidden;
   user-select: none;
-}
-
-a {
-  color: var(--t);
 }
 
 .master {
@@ -65,14 +61,19 @@ a {
   background-color: var(--b-o-m-p);
 }
 
-.header-text,
-.nav-item,
-.main-footer,
 .main-article-document-item a:link,
 .main-article-document-item a:visited,
 .main-article-paragraph,
-.main-article ul li {
+.main-article ul li,
+a {
   color: var(--t);
+}
+
+.header-text,
+.nav-item,
+.main-footer a,
+.main-footer {
+  color: var(--t-l-c);
 }
 
 .main-article-document-item a:link,
@@ -86,7 +87,10 @@ a {
 }
 
 .header-text:hover,
+.header-text:active,
 .nav-item:hover,
+.nav-item:active,
+.main-footer a:hover,
 .aktivni {
   color: var(--ch-p-o-h);
   text-shadow: 0px 0px 10px var(--ch-p-o-h);
@@ -111,12 +115,63 @@ a:active {
     font-size: 56.25%;
   }
 }
-@media screen and (max-width: 840px) {
-  .item {
+/* @media screen and (max-width: 840px) {
+  .main-article-document-item a {
     white-space: nowrap;
-    overflow: hidden;
+    overflow: hidden !important;
     text-overflow: clip;
     max-width: 100vw;
+  }
+} */
+
+@media screen and (max-width: 770px) {
+  .header-text {
+    font-size: 40%;
+  }
+  .header {
+    padding: 0 !important;
+  }
+
+  .table {
+    white-space: nowrap;
+    /* text-overflow: clip; */
+  }
+}
+
+@media screen and (max-width: 564px) {
+  .header-text {
+    font-size: 40%;
+    text-align: center;
+    flex-direction: column;
+  }
+  .header {
+    /* word-wrap: break-word; */
+    padding: 0 !important;
+    min-height: 50rem;
+    justify-content: center !important;
+    display: inline-block !important;
+    /* height: auto; */
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-about-me {
+    width: 150px !important;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr !important;
+  }
+
+  .gallery a {
+    justify-self: center;
+  }
+
+  p {
+    text-align: left !important;
   }
 }
 
@@ -137,6 +192,7 @@ a:active {
   font-weight: 700;
   transition: all 0.25s;
   cursor: pointer;
+  display: flex;
 }
 
 .header-text:hover {
@@ -249,7 +305,7 @@ a:active {
 }
 
 .table-body-item {
-  color: #444444;
+  color: var(--t);
 }
 
 .table-body tr:nth-child(even) {
