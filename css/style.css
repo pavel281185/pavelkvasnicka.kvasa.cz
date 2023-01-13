@@ -96,7 +96,7 @@ a {
 .nav-item:hover,
 .nav-item:active,
 .active-nav-item {
-  border-bottom: 3px solid #f96b00;
+  border-bottom: 5px solid #f96b00;
 }
 
 a:hover,
@@ -233,7 +233,7 @@ a:active {
 .nav-item:hover,
 .nav-item:active {
   transform: scale(1.1);
-  border-bottom: 3px solid #f96b00;
+  border-bottom: 5px solid #f96b00;
 }
 
 /* Main content */
@@ -259,8 +259,8 @@ a:active {
 }
 
 .main-head {
-  border-bottom: 3px solid #f96b00;
   display: inline-block;
+  text-decoration: #f96b00 underline;
 }
 
 .main-article-paragraph {
@@ -275,7 +275,7 @@ a:active {
   margin: 1.5rem;
   justify-content: center;
   display: inline-block;
-  align-items: center;
+  align-items: left;
 }
 
 .main-article-document-item a:link,

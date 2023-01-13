@@ -27,15 +27,15 @@
   </head>
   <!-- Body -->
   <body>
-    <!-- <div class="main-container"> -->
-    <div class="header">
-      <!-- Header -->
-      <header class="main-header" onclick="location.href='./index.html';">
-        <h1 class="header-text">Pavel Kvasnička</h1>
-      </header>
+    <!-- Header -->
+    <header class="page-header">
+      <h1 class="header-text" onclick="location.href='./index.html';">
+        Pavel Kvasnička
+      </h1>
       <!-- Navigation -->
-      <nav class="main-nav">
+      <nav>
         <ul class="nav">
+          <li class="nav-item" onclick="location.href='./index.html';">Domů</li>
           <li class="nav-item" onclick="location.href='./omne.html';">O mně</li>
           <li class="nav-item" onclick="location.href='./praxe.html';">
             Praxe
@@ -43,12 +43,15 @@
           <li class="nav-item" onclick="location.href='./fotogalerie.html';">
             Fotogalerie
           </li>
-          <li class="nav-item" onclick="location.href='./kontakty.html';">
+          <li
+            class="nav-item active-nav-item"
+            onclick="location.href='./kontakty.html';"
+          >
             Kontakty
           </li>
         </ul>
       </nav>
-    </div>
+    </header>
     <!-- Main content -->
     <div class="master">
       <main class="main-article">
@@ -68,17 +71,16 @@ else
 echo "<p>Váš e-mail se <strong>nepodařilo odeslat</strong> pravděpodobně jste nevyplnili všechny údaje, nebo nevíte kolik je 1 + 1.</p>";
 }
 ?>
-</main>
+      </main>
     </div>
     <!-- Footer -->
     <footer class="main-footer">
-      &copy;<span id="year">2021</span>, Pavel Kvasnička,
-      pavelkvasnicka@gmail.com
+      &copy;<span id="year">2021</span>, Pavel Kvasnička,&nbsp;
+      <a href="mailto:pavelkvasnicka@gmail.com">pavelkvasnicka@gmail.com</a>
       <script>
         document.getElementById("year").innerHTML = new Date().getFullYear();
       </script>
     </footer>
-    <!-- </div> -->
   </body>
 </html>
 <!-- <script src="footer.js"></script> -->
