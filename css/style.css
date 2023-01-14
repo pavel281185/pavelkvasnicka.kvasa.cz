@@ -157,7 +157,7 @@ a:active {
   }
   .page-header {
     padding: 0 !important;
-    min-height: 59rem;
+    min-height: 48rem;
     justify-content: center !important;
     display: inline-block !important;
     width: 100vw;
@@ -182,6 +182,27 @@ a:active {
 
   p {
     text-align: left !important;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .page-header {
+    min-height: 58rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .header-text {
+    font-size: 25%;
+  }
+  html {
+    font-size: 50%;
+  }
+
+  .main-footer {
+    display: flex;
+    flex-direction: column;
+    height: 10rem !important;
   }
 }
 
