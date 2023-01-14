@@ -119,7 +119,7 @@ a:active {
 
 @media screen and (max-width: 920px) {
   html {
-    font-size: 56.25%;
+    font-size: 56.25% !important;
   }
 }
 @media screen and (max-width: 840px) {
@@ -132,9 +132,9 @@ a:active {
 }
 
 @media screen and (max-width: 850px) {
-  .header-text {
-    font-size: 40%;
-  }
+  /* .header-text {
+    font-size: 6.2rem;
+  } */
   .page-header {
     padding: 0 !important;
   }
@@ -151,7 +151,6 @@ a:active {
 
 @media screen and (max-width: 650px) {
   .header-text {
-    font-size: 40%;
     text-align: center;
     flex-direction: column;
   }
@@ -193,8 +192,13 @@ a:active {
 
 @media screen and (max-width: 390px) {
   .header-text {
-    font-size: 25%;
+    font-size: 6.2rem !important;
   }
+
+  .page-header {
+    min-height: 55rem;
+  }
+
   html {
     font-size: 50%;
   }
