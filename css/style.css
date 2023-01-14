@@ -231,7 +231,7 @@ a:active {
 
 .header-text:hover,
 .header-text:active {
-  transform: scale(1.03);
+  /* transform: scale(1.03); */
 }
 
 /* Navigation */
@@ -253,7 +253,7 @@ a:active {
 }
 .nav-item:hover,
 .nav-item:active {
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
   border-bottom: 5px solid #f96b00;
 }
 
