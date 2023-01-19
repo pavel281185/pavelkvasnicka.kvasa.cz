@@ -1,5 +1,3 @@
-<!-- <script src="head.js"></script> -->
-<!-- <script src="header-navigation.js"></script> -->
 <!DOCTYPE html>
 <html lang="cs">
   <!-- Head -->
@@ -19,9 +17,6 @@
     <link rel="shortcut icon" href="./ico/favicon.png" type="image/x-icon" />
     <!-- Linked CSS -->
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <!-- Linked Lightbox files -->
-    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css" />
-    <script src="js/lightbox-plus-jquery.min.js"></script>
     <!-- Title -->
     <title>Pavel Kvasnička</title>
   </head>
@@ -84,4 +79,3 @@ echo "<p>Váš e-mail se <strong>nepodařilo odeslat</strong> pravděpodobně js
     </footer>
   </body>
 </html>
-<!-- <script src="footer.js"></script> -->
