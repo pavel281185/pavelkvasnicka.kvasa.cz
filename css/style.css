@@ -292,6 +292,7 @@ a:active {
   justify-content: center;
   display: inline-block;
   align-items: left;
+  font-size: 80% !important;
 }
 
 .main-article-document-item a:link,
